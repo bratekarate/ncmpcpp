@@ -30,6 +30,8 @@
 #include <mpd/client.h>
 #include "song.h"
 
+#include <stdexcept>
+
 namespace MPD {
 
 void checkConnectionErrors(mpd_connection *conn);
